@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(to right, #f36060, #da0404);
+  }
+  
+  .card-img-left {
+    width: 45%;
+    background: scroll center url('https://media.tenor.com/ivKWdfdbV3EAAAAi/goma-goma-cat.gif');
+    background-size: cover;
+  }
+
+.resultDisp p,
+h1,
+h3 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-title, .resultDisp #resLoveScoreDisp{
+    font-family: Georgia, serif;
+}
+.resultDisp #resLoveScoreDisp, #scoreInterpretationResult{
+    color: white;
+}
+.resultDisp #resLoveScoreDisp{
+    font-size: 3rem;
+}
+.btn{
+    background-color: #f36060 !important;
+    border-color: #f36060 !important;
+}
